@@ -10,9 +10,18 @@
     <title>Landing Page</title>
     <style>
 
+        html{
+            background-image: url('http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg');
+            -webkit-background-image: cover;
+            -moz-background-image: cover;
+            -o-background-image: cover;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
         body{
             padding-top: 20px;
             font-family: "Open-Sans", serif;
+            background: transparent;
         }
         h1{
             font-weight:400;
@@ -24,6 +33,11 @@
             margin:40px 0;
         }
 
+        .panel{
+            background-color: goldenrod;
+
+        }
+
 
     </style>
 </head>
@@ -31,10 +45,10 @@
 <div class="container">
 <div class="row">
 
-    <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-6 col-md-offset-3 panel">
 
 
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, vero!</h1>
+    <h1 class="margin-vertical">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, vero!</h1>
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
     <form action="#" method="post">
