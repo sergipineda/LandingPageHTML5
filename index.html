@@ -5,18 +5,32 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <title>Landing Page</title>
     <style>
 
         body{
             padding-top: 20px;
+            font-family: "Open-Sans", serif;
+        }
+        h1{
+            font-weight:400;
+            font-size:40px;
+            font-family:"Abel",  Arial, sans-serif;
+        }
+
+        .margin-vertical {
+            margin:40px 0;
         }
 
 
     </style>
 </head>
 <body>
+<div class="container">
 <div class="row">
+
     <div class="col-md-6 col-md-offset-3">
 
 
@@ -24,8 +38,12 @@
         <p>Lorem ipsum dolor sit amet.</p>
         <p>Lorem ipsum dolor sit amet.</p>
     <form action="#" method="post">
-        <p class="input-group">
-            <span class="input-group-addon">@</span>
+        <p class="input-group text-center">
+            <span class="input-group-addon">
+
+                <i class="fa fa-envelope"></i>
+
+            </span>
             <input type="email" class="form-control" name="email" placeholder="Your email here">
 
         </p>
@@ -35,6 +53,7 @@
         </p>
     </form>
     </div>
+</div>
 </div>
 </body>
 </html>
